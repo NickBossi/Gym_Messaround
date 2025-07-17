@@ -1,0 +1,13 @@
+[project]
+name = "ppo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flax>=0.10.7",
+    "gymnasium[classic-control,mujoco]>=1.2.0",
+    "jax>=0.6.2",
+    "matplotlib>=3.10.3",
+    "tqdm>=4.67.1",
+]
